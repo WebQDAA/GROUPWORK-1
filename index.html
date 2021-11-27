@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url("https://images.firstpost.com/wp-content/uploads/2021/07/covid-shutterstock.jpg?impolicy=website&width=640&height=363");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                backdrop-filter: blur(4px);
+            }
+            p{
+                font-size: 120%;
+            }
+            #t{
+                background-color:rgba(0,0,0,0.8);
+                color:azure;
+                border-color: azure;
+                border-collapse: collapse;
+                font-size: 18px;
+            }
+            label{
+                width: 250px;
+                display: inline-block;
+                font-size: 20px;
+            }
+            input{
+              border-radius: 5px 5px 5px 5px;
+            }
+        </style>
+    </head>
+    <body text="white">
+        <h1 style="color: azure;"><u><center>VIRUS ATTACK</center></u></h1>
+
+        <p align="right" bgcolor="white" >Till 28-Nov-2021</p><hr color="white">
+        <h1><u>Coronavirus disease (COVID-19)</u></h1>
+        <p>Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.</p>
+        <p>Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age.<br><br>
+            The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell. </p>
+        <h1>Ways to prevent and slow down the transmission:</h1>
+        <ol style="font-size: 20px;">
+            <li>Wash your hands often for atleast 20secs.</li>
+            <li>Avoid touching your eyes and mouth with unwashed hands.</li>
+            <li>Avoid close contact with people who are sick.</li>
+            <li>Cover your mouth while Coughing and Sneezing.</li>
+        </ol>
+        <h1>Symptoms:</h1>
+        <h3>Most Common Symptoms:</h3>
+        <ul style="font-size: 20px;">
+            <li>Fever</li>
+            <li>Cough</li>
+            <li>Loss of taste or smell</li>
+        </ul>
+        <h3>Less Common Symptoms:</h3>
+        <ul style="font-size: 20px;">
+            <li>Sore throat</li>
+            <li>Headache</li>
+            <li>Diarrhoea</li>
+        </ul>
+        <h1>Different Countries and their vaccination names:</h1>
+        <dl style="font-size: 20px;">
+            <dt>
+                United States
+                <dd>
+                   - Oxford-AstraZeneca vaccine
+                </dd>
+                <dd>
+                   - Moderna
+                </dd>
+            </dt>
+            <dt>
+                India
+                <dd>
+                   - COVAXIN
+                </dd>
+                <dd>
+                   - COVISHIELD
+                </dd>
+            </dt>
+            <dt>
+                UAE
+                <dd>
+                   - Sinopharm
+                </dd>
+                <dd>
+                   - Pfizer-BioNTech
+                </dd>
+
+            </dt>
+        </dl>
+        <p style="color: azure; font-size: 20px;">Death count:</p>
+        <center>
+        <table id=t border="1px" style="width:70%;">
+            <caption style="color:azure; font-size: 20px;">
+                Total number of deaths in 5 worst affected countries
+            </caption>
+            <tr>
+                <th rowspan="2" colspan="2">Country</th>
+                <th colspan="3"> Covid Death Rate</th>
+
+            </tr>
+            <tr>
+                <th colspan="3"></th>
+
+            </tr>
+            <tr>
+                <th>Sl no.</th>
+                <th>Name</th>
+                <th >#Cases</th>
+                <th >#Deaths </th>
+                <th >Death Rate</th>
+            </tr>
+            <tr >
+                    <td>1</td>
+                    <td>US</td>
+                    <td>239</td>
+                    <td>14</td>
+                    <td>5.9%</td>
+            </tr>
+            <tr  >
+                <td>2</td>
+                <td>China</td>
+                <td>80,679</td>
+                <td>3,034</td>
+                <td>3.8%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Italy</td>
+                <td>3,858</td>
+                <td>148</td>
+                <td>3.8%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Iran</td>
+                <td>4,747</td>
+                <td>124</td>
+                <td>2.6%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>France</td>
+                <td>577</td>
+                <td>9</td>
+                <td>1.6%</td>
+            </tr>
+        </table>
+        </center>
+        <hr color="white">
+        <form>
+            <fieldset >
+                <legend style="font-size: 30px;font-style: italic;" align="center"><u>Vaccine Details</u></legend>
+                <p><label for="name">Name: </label><input type="text" name="name" id="name"></p>
+                <p><label for="age">Age: </label><input type="number" name="age" id="age"></p>
+                <p>
+                    <label for="g">Gender:</label>
+                    <input type="radio" name="g" id="gm"><label style="width: 3%;">Male</label>
+                    <input type="radio" name="g" id="gf"><label style="width: 3%;">Female</label>
+                </p>
+                <label for="region" >Region:</label>
+                <select name="region" id="region">
+                    <option value="s">South</option>
+                    <option value="n">North</option>
+                    <option value="e">East</option>
+                    <option value="w">West</option>
+                </select>
+                <p><label for="yn">Are you vacinnated: </label>
+                    <input type="radio" name="yn" id="yes"><label style="width: 3%;">Yes</label>
+                    <input type="radio" name="yn" id="no"><label style="width: 3%;">No</label>
+                </p>
+                <p>
+                    <label for="up">Upload vaccination certificate:</label>
+                    <input type="file">
+                </p>
+                <input style="position: relative;left: 525px;" type="submit">
+                <input style="position: relative;left: 550px;" type="reset">
+            </fieldset>
+        </form>
+
+    </body>
+</html>
